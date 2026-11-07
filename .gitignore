@@ -12,3 +12,5 @@
 *.h264
 *.log
 .vscode/
+hardware/CAD/*.stl
+hardware/CAD/*.step
