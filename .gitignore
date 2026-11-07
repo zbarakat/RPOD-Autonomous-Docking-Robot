@@ -14,3 +14,6 @@
 .vscode/
 hardware/CAD/*.stl
 hardware/CAD/*.step
+/_local/
+/hardware/CAD/*.stl
+/hardware/CAD/*.step
