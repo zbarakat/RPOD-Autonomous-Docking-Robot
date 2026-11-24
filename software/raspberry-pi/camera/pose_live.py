@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Calibrated live AprilTag 36h11 ID 0 relative pose, Pi Zero 2 W.
 Windows SSH tunnel: ssh -N -L 8002:127.0.0.1:8002 robot@romi-pi.local
 Open http://localhost:8002 in Windows browser.
