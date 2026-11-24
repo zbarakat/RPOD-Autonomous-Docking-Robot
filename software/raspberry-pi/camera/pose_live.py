@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Calibrated live AprilTag 36h11 ID 0 relative pose, Pi Zero 2 W.
 Windows SSH tunnel: ssh -N -L 8002:127.0.0.1:8002 robot@romi-pi.local
 Open http://localhost:8002 in Windows browser.
@@ -107,7 +107,7 @@ class Handler(BaseHTTPRequestHandler):
                                      data + b"\r\n")
                 except (BrokenPipeError, ConnectionResetError, ConnectionAbortedError, OSError):
                     break
-            time.sleep(.35)
+            time.sleep(.15)
 
     def log_message(self, fmt, *args):
         pass
@@ -123,3 +123,4 @@ except KeyboardInterrupt:
 finally:
     server.server_close()
     camera.stop()
+
